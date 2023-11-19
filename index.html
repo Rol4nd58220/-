@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ampalo Roland</title>
-    <link rel="stylesheet" href="./style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+    
 </head>
 <body>
-    <!-- Loading Bar Container -->
-    <div id="loadingContainer">
-        <div id="loadingBar"></div>
+    <!-- SVG Image -->
+    <div class="loader-svg-container"> <!-- New parent container -->
+        <!-- SVG Image -->
+        <div class="svg-container">
+            <img id="person-svg" src="./assets/user.svg" alt="User Image">
+        </div>
+
+        <!-- Progress Loader -->
+        <div class="progress-loader">
+            <div class="progress"></div>
+        </div>
+    </div>
+    <!-- Percentage Text -->
+    <div class="loading-percentage">0%</div>
+
+    <div class="text-container">
+        <div id="text1" class="text">Welcome to my website!</div>
+        <div id="text2" class="text">I hope you enjoy your browsing experience.</div>
     </div>
 
-    <!-- Your other website content goes here -->
 
-    <!-- Loading Script -->
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
