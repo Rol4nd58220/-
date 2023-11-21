@@ -21,8 +21,10 @@ function startTextAnimations() {
     console.log("Starting text animations");
 
     const text1TotalTime = wrapLettersAndAnimate('text1', 1000); // Start Text 1 after 1 second
-    const text2StartTime = text1TotalTime + 1000; // Start Text 2 after Text 1 completes, plus 1 second
-    wrapLettersAndAnimate('text2', text2StartTime); // Text 2 starts after Text 1 animation completes
+    const text2TotalTime = wrapLettersAndAnimate('text2', text1TotalTime + 200); // Start Text 2 after Text 1 completes, plus 200ms
+
+    // Total time for all text animations to complete
+    const totalTextAnimationTime = Math.max(text1TotalTime, text2TotalTime);
 
     // Apply fadeOutDownBlur animation to both texts after a delay
     setTimeout(() => {
@@ -30,7 +32,12 @@ function startTextAnimations() {
         document.querySelectorAll('#text1 span, #text2 span').forEach(span => {
             span.style.animation = `fadeOutDownBlur 1s forwards`;
         });
-    }, text2StartTime + 5000); // 5 seconds after Text 2 starts
+    }, totalTextAnimationTime + 1000); // 1 second after the last text animation completes
+
+    // Optionally, you can adjust the delay for starting the homepage animation
+    setTimeout(() => {
+        // Add your code to reveal the homepage or perform other actions
+    }, totalTextAnimationTime + 2000); // Adjust the delay as needed
 }
 
 function updateLoading() {

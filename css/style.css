@@ -93,17 +93,13 @@ body, html {
     font-size: 24px;
     opacity: 0; /* Start with text invisible */
     white-space: nowrap;
-    margin-bottom: 20px; /* Space between text elements */
+    margin-bottom: 0px; /* Apply the variable for spacing */
 }
 
-#text1 {
-    top: 60%;
-    margin-bottom: 20px;
+.text:last-child {
+    margin-bottom: 0%;
 }
 
-#text2 {
-    margin-bottom: 0; /* Remove margin for the last element if needed */
-}
 
 /* Keyframes for animations */
 @keyframes fadeInUpBlur {

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323.68 287.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #b56030;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <g id="animCircle2">
+    <polyline class="cls-1" points="140.44 143.44 127.74 133.49 132.44 125.99 115.35 117.14"/>
+    <polyline class="cls-1" points="275.42 194.62 280.59 200 275.42 211.57 278.01 227.61"/>
+    <polyline class="cls-1" points="90.82 277.95 85.44 283.13 73.87 277.95 57.82 280.54"/>
+    <polyline class="cls-1" points="7.48 93.35 2.31 87.97 7.48 76.41 4.9 60.36"/>
+    <polyline class="cls-1" points="192.09 10.02 197.47 4.84 209.03 10.02 225.08 7.43"/>
+    <polyline class="cls-1" points="6.81 92.98 10.37 93.61 12.73 90.83"/>
+    <polyline class="cls-1" points="60.42 24.98 62.97 27.53 66.5 26.61"/>
+    <polyline class="cls-1" points="143.33 .02 143.96 3.58 147.38 4.84"/>
+    <polyline class="cls-1" points="225.57 27.14 224.04 30.41 226.12 33.41"/>
+    <polyline class="cls-1" points="277.38 96.52 274.25 98.32 274.23 101.97"/>
+    <polyline class="cls-1" points="280.02 183.07 276.43 182.75 274.32 185.73"/>
+    <polyline class="cls-1" points="232.55 255.48 229.78 253.16 226.35 254.39"/>
+    <polyline class="cls-1" points="152.13 287.57 151.19 284.08 147.67 283.12"/>
+    <polyline class="cls-1" points="67.84 267.72 69.08 264.33 66.75 261.52"/>
+    <polyline class="cls-1" points="10.18 203.12 13.14 201.05 12.84 197.42"/>
+    <polyline class="cls-1" points="0 117.14 3.61 117.14 5.45 113.99"/>
+    <polyline class="cls-1" points="141.56 .02 141.65 3.95 139.42 4.01 139.22 6.8 139.78 17.42"/>
+    <polyline class="cls-1" points="224.12 26.12 221.94 29.39 220.07 28.16 218.31 30.33 212.68 39.36"/>
+    <polyline class="cls-1" points="276.78 94.85 273.11 96.28 272.29 94.2 269.6 94.97 259.81 99.13"/>
+    <polyline class="cls-1" points="280.49 181.36 276.66 180.42 277.18 178.25 274.54 177.34 264.13 175.13"/>
+    <polyline class="cls-1" points="233.91 254.35 231.31 251.39 232.98 249.91 231.34 247.64 224.08 239.87"/>
+    <polyline class="cls-1" points="153.89 287.42 153.46 283.51 155.68 283.25 155.63 280.45 154.14 269.92"/>
+    <polyline class="cls-1" points="69.37 268.61 71.26 265.16 73.23 266.23 74.79 263.91 79.61 254.43"/>
+    <polyline class="cls-1" points="10.92 204.73 14.45 202.99 15.45 204.99 18.06 203.99 27.45 198.99"/>
+    <path class="cls-1" d="m323.61,77.72s-10.66,6.77-13.66,6.77-24-15.5-24-15.5l-42.97-1.02-31.63,22.29,4.04,5.44-73.94,48.29"/>
+  </g>
+</svg>
