@@ -26,18 +26,21 @@ function startTextAnimations() {
     // Total time for all text animations to complete
     const totalTextAnimationTime = Math.max(text1TotalTime, text2TotalTime);
 
-    // Apply fadeOutDownBlur animation to both texts after a delay
+    // Apply fadeOutDownBlur animation to both texts and person-svg after a delay
     setTimeout(() => {
         console.log("Applying fadeOutDownBlur");
         document.querySelectorAll('#text1 span, #text2 span').forEach(span => {
             span.style.animation = `fadeOutDownBlur 1s forwards`;
         });
-    }, totalTextAnimationTime + 1000); // 1 second after the last text animation completes
 
-    // Optionally, you can adjust the delay for starting the homepage animation
-    setTimeout(() => {
-        // Add your code to reveal the homepage or perform other actions
-    }, totalTextAnimationTime + 2000); // Adjust the delay as needed
+        // Smoothly fade out the person-svg
+        const personSvg = document.getElementById('person-svg');
+        personSvg.style.transition = 'opacity 1s';
+        personSvg.style.opacity = '0';
+
+        // Set black background for the homepage
+        document.body.style.backgroundColor = '#ffff';
+    }, totalTextAnimationTime + 1000); // 1 second after the last text animation completes
 }
 
 function updateLoading() {
@@ -60,6 +63,9 @@ function updateLoading() {
             loadingContainer.classList.add('fade-out');
             loadingText.classList.add('fade-out');
             svgElement.classList.add('move-up');
+
+            // Set black background directly here
+            document.body.style.backgroundColor = '#000';
 
             startTextAnimations(); // Start text animations after loader finishes
             return;
